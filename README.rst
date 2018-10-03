@@ -1,5 +1,5 @@
-polonium-210-repo
-*****************
+repository.polonium-210
+***********************
 
 About
 =====

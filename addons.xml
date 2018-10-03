@@ -2,9 +2,9 @@
 <addons>
     <addon id="repository.polonium-210" name="polonium-210 repository" version="1.0.0" provider-name="polonium-210">
         <extension point="xbmc.addon.repository" name="polonium-210 repository">
-            <info compressed="true">http://github.com/polonium-210/polonium-210-repo/raw/master/addons.xml</info>
-            <checksum>http://github.com/polonium-210/polonium-210-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">http://github.com/polonium-210/polonium-210-repo/raw/master</datadir>
+            <info compressed="true">http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml</info>
+            <checksum>http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">http://github.com/polonium-210/repository.polonium-210/raw/master</datadir>
             <hashes>true</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -32,7 +32,7 @@
             <description>Polonium-210 video plugin for Kodi</description>
             <language></language>
             <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-            <source>https://github.com/polonium-210/polonium-210-repo/plugin.video.polonium210</source>
+            <source>https://github.com/polonium-210/repository.polonium-210/plugin.video.polonium210</source>
             <forum></forum>
             <website></website>
         </extension>
