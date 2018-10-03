@@ -14,3 +14,6 @@ params:
 
 md5:
 	md5sum addons.xml > addons.xml.md5
+
+zip:
+	zip -0 -r zips/repository.polonium-210-latest.zip repository.polonium-210/
