@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting type="lsep" label="32537" />
+    <setting id="auth_token" type="text" label="32538" />
+    <setting id="refresh_token" type="text" label="32539" />
+</settings>

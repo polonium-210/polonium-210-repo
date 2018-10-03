@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.polonium-210" name="polonium-210 repository" version="1.0.0" provider-name="polonium-210">
+        <extension point="xbmc.addon.repository" name="polonium-210 repository">
+            <info compressed="true">http://github.com/polonium-210/polonium-210-repo/raw/master/addons.xml</info>
+            <checksum>http://github.com/polonium-210/polonium-210-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">http://github.com/polonium-210/polonium-210-repo/raw/master</datadir>
+            <hashes>true</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Polonium-210 Repository</summary>
+            <summary lang="pl">Repozytorium Polonium-210</summary>
+            <description>Najnowsza wersja zawsze na www.polonium-210.pl</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.polonium210" name="Polonium-210" version="0.3.1" provider-name="p1c2u">
+        <requires>
+            <import addon="xbmc.python" version="2.24.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.six" version="1.9.0"/>
+            <import addon="script.module.kodiswift" version="0.0.8"/>
+            <!-- import addon="script.module.web-pdb" version="1.3.4"/-->
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary>Polonium-210</summary>
+            <description>Polonium-210 video plugin for Kodi</description>
+            <language></language>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+            <source>https://github.com/polonium-210/polonium-210-repo/plugin.video.polonium210</source>
+            <forum></forum>
+            <website></website>
+        </extension>
+    </addon>
+</addons>

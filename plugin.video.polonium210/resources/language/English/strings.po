@@ -1,0 +1,28 @@
+# XBMC Media Center language file
+# Addon Name: Polonium-210
+# Addon id: plugin.video.polonium210
+# Addon version: 0.0.1
+# Addon Provider: p1c2u
+msgid ""
+msgstr ""
+"Project-Id-Version: Polonium-210\n"
+"Report-Msgid-Bugs-To: maciag.artur@gmail.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32537"
+msgid "[B]POLONIUM-210 API[/B]"
+msgstr ""
+
+msgctxt "#32538"
+msgid "[B]Auth Token[/B]"
+msgstr ""
+
+msgctxt "#32539"
+msgid "[B]Refresh Token[/B]"
+msgstr ""
