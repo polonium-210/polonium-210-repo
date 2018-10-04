@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.polonium-210" name="polonium-210 repository" version="1.0.0" provider-name="polonium-210">
+<addon id="repository.polonium-210" name="polonium-210 repository" version="1.1.0" provider-name="polonium-210">
     <extension point="xbmc.addon.repository" name="polonium-210 repository">
-        <info compressed="true">http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml</info>
-        <checksum>http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://github.com/polonium-210/repository.polonium-210/raw/master</datadir>
+        <info compressed="true">https://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml</info>
+        <checksum>https://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/polonium-210/repository.polonium-210/raw/master/zips</datadir>
         <hashes>true</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">

@@ -2,7 +2,7 @@
 PLUGIN_NAME=plugin.video.polonium210
 PLUGIN_VERSION=0.3.1
 REPO_NAME=repository.polonium-210
-REPO_VERSION=1.0.0
+REPO_VERSION=1.1.0
 
 default:
 	@echo ""
