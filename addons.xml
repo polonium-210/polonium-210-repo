@@ -4,7 +4,7 @@
         <extension point="xbmc.addon.repository" name="polonium-210 repository">
             <info compressed="true">http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml</info>
             <checksum>http://github.com/polonium-210/repository.polonium-210/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">http://github.com/polonium-210/repository.polonium-210/raw/master</datadir>
+            <datadir zip="true">http://github.com/polonium-210/repository.polonium-210/raw/master/zips</datadir>
             <hashes>true</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
