@@ -24,7 +24,7 @@ plugin-zip-md5:
 	md5sum zips/${PLUGIN_NAME}/${PLUGIN_NAME}-${PLUGIN_VERSION}.zip > zips/${PLUGIN_NAME}/${PLUGIN_NAME}-${PLUGIN_VERSION}.zip.md5
 
 plugin-zip-set-latest:
-	ln -s zips/${PLUGIN_NAME}/${PLUGIN_NAME}-${PLUGIN_VERSION}.zip zips/${PLUGIN_NAME}-latest.zip
+	cp zips/${PLUGIN_NAME}/${PLUGIN_NAME}-${PLUGIN_VERSION}.zip zips/${PLUGIN_NAME}-latest.zip
 
 plugin-zip-latest: plugin-zip plugin-zip-md5 plugin-zip-set-latest
 
@@ -35,7 +35,7 @@ repo-zip-md5:
 	md5sum zips/${REPO_NAME}/${REPO_NAME}-${REPO_VERSION}.zip > zips/${REPO_NAME}/${REPO_NAME}-${REPO_VERSION}.zip.md5
 
 repo-zip-set-latest:
-	ln -s zips/${REPO_NAME}/${REPO_NAME}-${REPO_VERSION}.zip zips/${REPO_NAME}-latest.zip 
+	cp zips/${REPO_NAME}/${REPO_NAME}-${REPO_VERSION}.zip zips/${REPO_NAME}-latest.zip 
 
 repo-zip-latest: repo-zip repo-zip-md5 repo-zip-set-latest
 
