@@ -84,6 +84,7 @@ class SimpleIPTVPlugin(object):
 
         dom = parseString(data)
         for setting_element in dom.getElementsByTagName("setting"):
+            pass
 
     def read_settings_xml(self):
         with open(self.settings_file, 'r') as f:
@@ -210,8 +211,8 @@ class Authenticator(object):
 class Polonium210Client(object):
 
     # @todo: move to prod
-    # base_url = 'https://api.polonium-210.pl/v1/'
-    base_url = 'http://localhost:5000/v1/'
+    base_url = 'https://api.polonium-210.pl/v1/'
+    # base_url = 'http://localhost:5000/v1/'
 
     default_params = {
         'format': 'kodi',

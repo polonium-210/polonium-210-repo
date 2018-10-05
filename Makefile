@@ -15,6 +15,7 @@ default:
 info:
 	@echo "Plugin ${PLUGIN_NAME} version: ${PLUGIN_VERSION}"
 	@echo "Repository ${REPO_NAME} version: ${REPO_VERSION}"
+	@echo "Deployment addons path: ${DEPLOY_ADDONS_PATH}"
 
 plugin-zip:
 	zip -0 -r zips/${PLUGIN_NAME}/${PLUGIN_NAME}-${PLUGIN_VERSION}.zip ${PLUGIN_NAME}/
@@ -40,3 +41,11 @@ repo-zip-latest: repo-zip repo-zip-md5 repo-zip-set-latest
 
 addons-md5:
 	md5sum addons.xml > addons.xml.md5
+
+clean-deploy:
+	rm -rf '${DEPLOY_ADDONS_PATH}/${PLUGIN_NAME}'
+
+copy-deploy:
+	cp -R ${PLUGIN_NAME} '${DEPLOY_ADDONS_PATH}/${PLUGIN_NAME}'
+
+deploy: clean-deploy copy-deploy
